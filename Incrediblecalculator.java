@@ -29,7 +29,11 @@ public class IncredibleCalculator {
                     System.out.println("Solución: " + resta(num1 - num2));
 
                     break;
-            case 3: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su producto.
+            case 3: 
+                    int num1=leerEnteroEntrada;
+                    int nm2=leerEnteroEntrada;
+
+                    System.out.println("Solución: " + multiplicacion(num1 * num2));
                     break;
             case 4: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su división entera.
                     break;
